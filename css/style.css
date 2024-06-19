@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navbar{
+    height: 40px;
+    background-color: #5995DA;
+}
+
+.header{
+    height: 140px;
+    background-color: #B2D6FF;
+}
+.signup{
+    height: 80px;
+    background-color: #D6E9FE;
+}
+.content{
+    height: 500px;
+    background-color: lightgray;
+}
+.box1{
+    height: 200px;
+    background-color: #F5CF8E;
+    float: left;
+}
+.box2{
+    height: 200px;
+    background-color: #C8C6FA;
+    float: left;
+}
+.box3{
+    height: 200px;
+    background-color: #F09A9D;
+    float: left;
+}
+@media only screen and (max-width:600px){
+    nav{
+        height: 200px;
+        position: absolute;
+        top: 150px;
+    }
+    .signup{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 350px;
+    }
+    .box1{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 450px;
+    }
+    .box2{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 550px;
+    }
+    .box3{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 650px;
+    }
+}
+@media only screen and (min-width: 600px) {
+
+    nav{
+        height: 200px;
+        background-color: rgb(211, 211, 231);
+        position: absolute;
+        top: 150px;   
+    }
+
+    .signup{
+        width: 50%;
+        height: 150px;
+        position: absolute;
+        top: 350px;    
+    }
+    .box1{
+        width: 50%;
+        height: 150px;
+        position: absolute;
+        top: 350px;
+        left: 50%;    
+    }
+    .box2{
+        width: 50%;
+        height: 150px;
+        position: absolute;
+        top: 500px;    
+    }
+    .box3{
+        width: 50%;
+        height: 150px;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+    }
+}
+@media only screen and (min-width: 800px){
+  
+    .signup{
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 350px;
+    }
+    nav{
+        height: 200px;
+        position: absolute;
+        top: 420px;
+    }
+    .box1{
+        width: 33.33%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        height:200px ;
+    }
+    .box2{
+        width: 33.33%;
+        position: absolute;
+        top: 150px;
+        left: 33.3%;
+        height:200px ;
+    
+    }
+    .box3{
+        width: 33.33%;
+        position: absolute;
+        top: 150px;
+        left: 66.6%;
+        height:200px ;
+    }
+}
